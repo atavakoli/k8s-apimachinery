@@ -21,7 +21,7 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"k8s.io/apimachinery/pkg/types"
+	"github.com/yext/k8s-apimachinery/pkg/types"
 )
 
 var uuidLock sync.Mutex

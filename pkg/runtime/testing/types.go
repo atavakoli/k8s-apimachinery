@@ -19,9 +19,9 @@ package testing
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/json"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/util/json"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

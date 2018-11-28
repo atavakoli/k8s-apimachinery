@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "k8s.io/apimachinery/pkg/watch"
+	. "github.com/yext/k8s-apimachinery/pkg/watch"
 )
 
 func TestFilter(t *testing.T) {

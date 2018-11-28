@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"k8s.io/apimachinery/pkg/conversion/queryparams"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/conversion/queryparams"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
 )
 
 // codec binds an encoder and decoder.

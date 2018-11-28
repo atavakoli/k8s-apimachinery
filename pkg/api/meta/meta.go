@@ -22,12 +22,12 @@ import (
 
 	"k8s.io/klog"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
+	metav1 "github.com/yext/k8s-apimachinery/pkg/apis/meta/v1"
+	metav1beta1 "github.com/yext/k8s-apimachinery/pkg/apis/meta/v1beta1"
+	"github.com/yext/k8s-apimachinery/pkg/conversion"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/types"
 )
 
 // errNotList is returned when an object implements the Object style interfaces but not the List style

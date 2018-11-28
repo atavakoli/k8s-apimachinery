@@ -19,7 +19,7 @@ package v1
 import (
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
 )
 
 type metaObj struct {

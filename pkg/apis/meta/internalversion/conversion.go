@@ -17,8 +17,8 @@ limitations under the License.
 package internalversion
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
+	metav1 "github.com/yext/k8s-apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/k8s-apimachinery/pkg/conversion"
 )
 
 func Convert_internalversion_ListOptions_To_v1_ListOptions(in *ListOptions, out *metav1.ListOptions, s conversion.Scope) error {

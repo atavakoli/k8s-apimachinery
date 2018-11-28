@@ -26,11 +26,11 @@ import (
 	"github.com/modern-go/reflect2"
 	"sigs.k8s.io/yaml"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/recognizer"
-	"k8s.io/apimachinery/pkg/util/framer"
-	utilyaml "k8s.io/apimachinery/pkg/util/yaml"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/serializer/recognizer"
+	"github.com/yext/k8s-apimachinery/pkg/util/framer"
+	utilyaml "github.com/yext/k8s-apimachinery/pkg/util/yaml"
 )
 
 // NewSerializer creates a JSON serializer that handles encoding versioned objects into the proper JSON form. If typer

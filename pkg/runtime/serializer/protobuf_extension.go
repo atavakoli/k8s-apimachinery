@@ -17,8 +17,8 @@ limitations under the License.
 package serializer
 
 import (
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/serializer/protobuf"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/serializer/protobuf"
 )
 
 const (

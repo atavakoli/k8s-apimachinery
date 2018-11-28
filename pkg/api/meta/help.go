@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/conversion"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
 )
 
 // IsListType returns true if the provided Object has a slice called Items

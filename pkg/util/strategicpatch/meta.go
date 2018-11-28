@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/apimachinery/pkg/util/mergepatch"
-	forkedjson "k8s.io/apimachinery/third_party/forked/golang/json"
+	"github.com/yext/k8s-apimachinery/pkg/util/mergepatch"
+	forkedjson "github.com/yext/k8s-apimachinery/third_party/forked/golang/json"
 	openapi "k8s.io/kube-openapi/pkg/util/proto"
 )
 

@@ -17,10 +17,10 @@ limitations under the License.
 package validation
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	metav1 "github.com/yext/k8s-apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/k8s-apimachinery/pkg/util/sets"
+	"github.com/yext/k8s-apimachinery/pkg/util/validation"
+	"github.com/yext/k8s-apimachinery/pkg/util/validation/field"
 )
 
 func ValidateLabelSelector(ps *metav1.LabelSelector, fldPath *field.Path) field.ErrorList {

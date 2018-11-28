@@ -21,9 +21,9 @@ limitations under the License.
 package v1alpha1
 
 import (
-	config "k8s.io/apimachinery/pkg/apis/config"
-	conversion "k8s.io/apimachinery/pkg/conversion"
-	runtime "k8s.io/apimachinery/pkg/runtime"
+	config "github.com/yext/k8s-apimachinery/pkg/apis/config"
+	conversion "github.com/yext/k8s-apimachinery/pkg/conversion"
+	runtime "github.com/yext/k8s-apimachinery/pkg/runtime"
 )
 
 func init() {

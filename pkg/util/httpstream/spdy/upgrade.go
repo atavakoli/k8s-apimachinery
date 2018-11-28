@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/util/httpstream"
+	"github.com/yext/k8s-apimachinery/pkg/util/runtime"
 )
 
 const HeaderSpdy31 = "SPDY/3.1"

@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/api/resource"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	"github.com/yext/k8s-apimachinery/pkg/api/resource"
+	"github.com/yext/k8s-apimachinery/pkg/conversion"
+	"github.com/yext/k8s-apimachinery/pkg/fields"
+	"github.com/yext/k8s-apimachinery/pkg/labels"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/util/intstr"
 )
 
 func AddConversionFuncs(scheme *runtime.Scheme) error {

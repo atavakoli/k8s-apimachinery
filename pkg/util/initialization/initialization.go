@@ -17,9 +17,9 @@ limitations under the License.
 package initialization
 
 import (
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/api/meta"
+	metav1 "github.com/yext/k8s-apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
 )
 
 // IsInitialized returns if the initializers indicates means initialized.

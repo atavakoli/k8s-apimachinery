@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/framer"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/util/framer"
 )
 
 type fakeDecoder struct {

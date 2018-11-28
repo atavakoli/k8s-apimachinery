@@ -26,21 +26,21 @@ func TestGetNameFromCallsite(t *testing.T) {
 	}{
 		{
 			name:     "simple",
-			expected: "k8s.io/apimachinery/pkg/util/naming/from_stack_test.go:50",
+			expected: "github.com/yext/k8s-apimachinery/pkg/util/naming/from_stack_test.go:50",
 		},
 		{
 			name:            "ignore-package",
-			ignoredPackages: []string{"k8s.io/apimachinery/pkg/util/naming"},
+			ignoredPackages: []string{"github.com/yext/k8s-apimachinery/pkg/util/naming"},
 			expected:        "testing/testing.go:827",
 		},
 		{
 			name:            "ignore-file",
-			ignoredPackages: []string{"k8s.io/apimachinery/pkg/util/naming/from_stack_test.go"},
+			ignoredPackages: []string{"github.com/yext/k8s-apimachinery/pkg/util/naming/from_stack_test.go"},
 			expected:        "testing/testing.go:827",
 		},
 		{
 			name:            "ignore-multiple",
-			ignoredPackages: []string{"k8s.io/apimachinery/pkg/util/naming/from_stack_test.go", "testing/testing.go"},
+			ignoredPackages: []string{"github.com/yext/k8s-apimachinery/pkg/util/naming/from_stack_test.go", "testing/testing.go"},
 			expected:        "????",
 		},
 	}

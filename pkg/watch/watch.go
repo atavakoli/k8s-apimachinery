@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/klog"
 
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
 )
 
 // Interface can be implemented by anything that knows how to watch and report changes.

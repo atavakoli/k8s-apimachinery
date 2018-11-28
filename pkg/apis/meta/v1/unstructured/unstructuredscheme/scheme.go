@@ -19,12 +19,12 @@ package unstructuredscheme
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/versioning"
+	"github.com/yext/k8s-apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/serializer"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/serializer/json"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/serializer/versioning"
 )
 
 var (

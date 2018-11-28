@@ -20,9 +20,9 @@ import (
 	"io"
 	"sync"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/net"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/util/net"
+	utilruntime "github.com/yext/k8s-apimachinery/pkg/util/runtime"
 	"k8s.io/klog"
 )
 

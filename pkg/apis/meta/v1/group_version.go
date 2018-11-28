@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
 )
 
 // GroupResource specifies a Group and a Resource, but does not force a version.  This is useful for identifying

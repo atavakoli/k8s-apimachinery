@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
 )
 
 func TestRESTMapperVersionAndKindForResource(t *testing.T) {

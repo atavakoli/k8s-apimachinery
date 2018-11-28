@@ -19,8 +19,8 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/util/sets"
 )
 
 // AmbiguousResourceError is returned if the RESTMapper finds multiple matches for a resource

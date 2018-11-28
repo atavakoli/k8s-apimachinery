@@ -26,8 +26,8 @@ import (
 
 	"k8s.io/klog"
 
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/third_party/forked/golang/netutil"
+	utilnet "github.com/yext/k8s-apimachinery/pkg/util/net"
+	"github.com/yext/k8s-apimachinery/third_party/forked/golang/netutil"
 )
 
 func DialURL(ctx context.Context, url *url.URL, transport http.RoundTripper) (net.Conn, error) {

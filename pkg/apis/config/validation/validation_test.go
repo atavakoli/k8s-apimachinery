@@ -17,8 +17,8 @@ limitations under the License.
 package validation
 
 import (
-	"k8s.io/apimachinery/pkg/apis/config"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/yext/k8s-apimachinery/pkg/apis/config"
+	"github.com/yext/k8s-apimachinery/pkg/util/validation/field"
 	"testing"
 )
 

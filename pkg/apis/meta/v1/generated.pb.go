@@ -70,10 +70,10 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
-import k8s_io_apimachinery_pkg_runtime "k8s.io/apimachinery/pkg/runtime"
+import k8s_io_apimachinery_pkg_runtime "github.com/yext/k8s-apimachinery/pkg/runtime"
 
 import time "time"
-import k8s_io_apimachinery_pkg_types "k8s.io/apimachinery/pkg/types"
+import k8s_io_apimachinery_pkg_types "github.com/yext/k8s-apimachinery/pkg/types"
 
 import github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
 

@@ -21,8 +21,8 @@ import (
 
 	"reflect"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/util/diff"
 )
 
 func TestPreferredVersionsAllGroups(t *testing.T) {

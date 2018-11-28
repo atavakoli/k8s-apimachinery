@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/docker/spdystream"
-	"k8s.io/apimachinery/pkg/util/httpstream"
+	"github.com/yext/k8s-apimachinery/pkg/util/httpstream"
 	"k8s.io/klog"
 )
 

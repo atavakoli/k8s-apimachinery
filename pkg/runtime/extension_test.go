@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
 )
 
 func TestEmbeddedRawExtensionMarshal(t *testing.T) {

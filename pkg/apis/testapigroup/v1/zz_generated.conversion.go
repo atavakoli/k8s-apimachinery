@@ -23,10 +23,10 @@ package v1
 import (
 	unsafe "unsafe"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	testapigroup "k8s.io/apimachinery/pkg/apis/testapigroup"
-	conversion "k8s.io/apimachinery/pkg/conversion"
-	runtime "k8s.io/apimachinery/pkg/runtime"
+	metav1 "github.com/yext/k8s-apimachinery/pkg/apis/meta/v1"
+	testapigroup "github.com/yext/k8s-apimachinery/pkg/apis/testapigroup"
+	conversion "github.com/yext/k8s-apimachinery/pkg/conversion"
+	runtime "github.com/yext/k8s-apimachinery/pkg/runtime"
 )
 
 func init() {

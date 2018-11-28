@@ -21,12 +21,12 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/yext/k8s-apimachinery/pkg/api/meta"
+	"github.com/yext/k8s-apimachinery/pkg/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/serializer"
+	runtimetesting "github.com/yext/k8s-apimachinery/pkg/runtime/testing"
+	"github.com/yext/k8s-apimachinery/pkg/util/diff"
 )
 
 func TestDecodeEmptyRawExtensionAsObject(t *testing.T) {

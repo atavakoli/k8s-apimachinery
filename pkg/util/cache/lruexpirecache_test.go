@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/clock"
+	"github.com/yext/k8s-apimachinery/pkg/util/clock"
 
 	"github.com/golang/groupcache/lru"
 )

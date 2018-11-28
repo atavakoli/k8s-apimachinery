@@ -19,8 +19,8 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	utilerrors "k8s.io/apimachinery/pkg/util/errors"
+	"github.com/yext/k8s-apimachinery/pkg/runtime/schema"
+	utilerrors "github.com/yext/k8s-apimachinery/pkg/util/errors"
 )
 
 // FirstHitRESTMapper is a wrapper for multiple RESTMappers which returns the

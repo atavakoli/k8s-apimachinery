@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/yext/k8s-apimachinery/pkg/util/validation/field"
 )
 
 func TestValidateLabels(t *testing.T) {

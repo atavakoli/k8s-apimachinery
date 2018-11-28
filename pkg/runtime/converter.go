@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/util/json"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/k8s-apimachinery/pkg/conversion"
+	"github.com/yext/k8s-apimachinery/pkg/util/json"
+	utilruntime "github.com/yext/k8s-apimachinery/pkg/util/runtime"
 
 	"k8s.io/klog"
 )

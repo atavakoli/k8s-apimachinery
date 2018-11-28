@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/selection"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/k8s-apimachinery/pkg/selection"
+	"github.com/yext/k8s-apimachinery/pkg/util/sets"
 )
 
 func TestSelectorParse(t *testing.T) {

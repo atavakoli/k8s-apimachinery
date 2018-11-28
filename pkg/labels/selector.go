@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/selection"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
+	"github.com/yext/k8s-apimachinery/pkg/selection"
+	"github.com/yext/k8s-apimachinery/pkg/util/sets"
+	"github.com/yext/k8s-apimachinery/pkg/util/validation"
 	"k8s.io/klog"
 )
 
